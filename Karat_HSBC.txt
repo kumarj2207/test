@@ -1,0 +1,151 @@
+Recursion/Backtracing
+Problem:
+Subset/Powerset
+[1,2,3] => [[], [1], [2], [3].... ]
+O(2^n)
+
+Permutation of a list
+[1,2,3] => [[1,2,3], [1,3,2], [2,1,3], [2,3,2], [3,1,2], [3,2,1] ]
+O(n!)
+
+Generate Parentheses
+n = 3 => ["((()))", "(()())", .....]
+
+STRING/MANIPULATION/PATTERN
+Reverse words in a sentence.
+"The sky is blue" => "blue is sky The"
+String splitting and joining. Handling whitespace.O(n)
+
+Compress a string.
+"aabcccccaaa" => a2b1c5a3
+Iteration and counting. String building efficiency. Edge cases(single char , empty)
+ 
+Check for pelindrome, ignoring non-alphanumeric chars
+"A man, a plan, a canal: Panama" => True
+Two pointers  technique. Case insensitive comparison
+
+Longest substrn without repeating chars
+"abcabcbb" => 3(substring "abc")
+Sliding window technique. HashSet for tracking. O(n)
+
+Find all Anagram in a string.
+s="cbaebabacd", p="abc" => [0, 6]
+Sliding window technique. Frequency counting with HashMap. Paatern matching logic.
+
+Check if one string is a rotation of another.
+s1="waterbottle", s2="erbottlewat" => True
+Concatenation, Searching
+
+ALGORITHM
+Shared skills b/w Employees
+Input:
+[
+["E1","JAVA"],
+["E2","PYTHON"],
+["E1","PYTHON"],
+["E3","JAVA"],
+["E2","JAVA"]
+]
+Output
+[
+"E1,E2": ["PYTHON","JAVA"],
+"E1,E3": ["JAVA"],
+"E2,E3": ["JAVA"],
+]
+Data groupig and intersecgtion. Use of Set
+
+ARRAY AND HASH MAP
+Two sum,
+nums=[2.7.11.15], target=9 => [0,1]
+HashMap lookup. O(n)
+
+Group Anagrams
+input=["eat","tea","tan","nat","ate","bat"] => [["eat","tea","ate"],["tan","nat"],["bat"]]
+HashMap with sorted string keys.
+
+Find duplicate number
+[1,3,4,2,2] => 2
+HashSet or Floyd's Cycle detection.
+
+
+COLLECTION/DS
+Employee Project Overlap
+Input:
+[
+["E1","ProjectA"],
+["E2","ProjectB"],
+["E1","ProjectB"],
+["E3","ProjectA"],
+["E2","ProjectA"]
+]
+Output
+[
+"E1,E2": ["ProjectB","ProjectA"],
+"E1,E3": ["ProjectA"],
+"E2,E3": ["ProjectA"],
+]
+HahMap usage. Set intersection logic.
+
+Common Purchase b/w Customers
+Input:
+[
+["C1","Laptop"],
+["C2","Phone"],
+["C1","Phone"],
+["C3","Laptop"],
+["C2","Laptop"]
+]
+Output
+[
+"C1,C2": ["Phone","Laptop"],
+"C1,C3": ["Laptop"],
+"C2,C3": ["Laptop"],
+]
+Set operation with nested loops,
+
+Shared interest b/w users
+Input:
+[
+["U1","Music"],
+["U2","Music"],
+["U1","Sports"],
+["U3","Movies"],
+["U2","Movies"],
+["U3","Sports"],
+]
+Output
+[
+"U1,U2": ["Music"],
+"U1,U3": ["Sports"],
+"U2,U3": ["Movies"],
+]
+
+enrollments:
+[
+["S1","Math"],
+["S2","Math"],
+["S1","Physics"],
+["S3","Physics"],
+["S2","Chem"]
+]
+professors:
+[
+["Math","ProfA"],
+["Physics","ProfB"],
+["Chem","ProfC"]
+]
+Output
+[
+"S1,S2": ["ProfA"],
+"S1,S3": ["ProfB"],
+"S2,S3": ["ProfC"],
+]
+
+GRAPH/TREE TRAVERSAL
+
+BFS travel using queue
+
+Number of Island usong 2D grid
+
+Clone graph
+Graoh traversal(DFS/BFS). HashMap for visited nodes.
